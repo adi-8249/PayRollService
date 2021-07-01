@@ -10,3 +10,10 @@ EmployeeName varchar(32),
 Salary float,
 StartDate date
 );
+--UC3-Inserting data into payroll service table
+insert into EmployeePayRoll(EmployeeName,Salary,StartDate)
+values('Anjaneya',50000.00,'2021-05-25'),
+       ('gopal',30000.00,'2021-03-02'),
+	   ('Raja',40000.00,'2021-08-01'),
+	   ('Biju',35000.00,'2020-05-02'),
+	   ('Sridhar',20000.00,'2020-09-07');
