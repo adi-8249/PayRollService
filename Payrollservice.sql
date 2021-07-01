@@ -19,3 +19,6 @@ values('Anjaneya',50000.00,'2021-05-25'),
 	   ('Sridhar',20000.00,'2020-09-07');
 --UC4-Retriving Data
 select * from EmployeePayRoll;
+--UC5-retriving Particular data
+Select Salary from EmployeePayRoll Where EmployeeName='Biju'
+Select Salary from EmployeePayRoll Where StartDate BETWEEN CAST('2018-01-01' as date) and GetDate();
