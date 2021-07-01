@@ -17,3 +17,5 @@ values('Anjaneya',50000.00,'2021-05-25'),
 	   ('Raja',40000.00,'2021-08-01'),
 	   ('Biju',35000.00,'2020-05-02'),
 	   ('Sridhar',20000.00,'2020-09-07');
+--UC4-Retriving Data
+select * from EmployeePayRoll;
