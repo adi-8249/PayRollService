@@ -25,3 +25,20 @@ Select Salary from EmployeePayRoll Where StartDate BETWEEN CAST('2018-01-01' as 
 --UC6-Updating gender of the employee name
 Alter Table EmployeePayroll
 Add gender varchar(20);
+
+UPDATE EmployeePayroll set Gender ='Male' where EmployeeName='Anjaneya'
+UPDATE EmployeePayroll set Gender ='Male' where EmployeeName='gopal'
+UPDATE EmployeePayroll set Gender ='Male' where EmployeeName='Raja'
+UPDATE EmployeePayroll set Gender ='Male' where EmployeeName='Biju'
+UPDATE EmployeePayroll set Gender ='female' where EmployeeName='Sridhar';
+
+--UC7-DataBase functions
+Select SUM(Salary) from EmployeePayroll
+Select AVG(Salary) from EmployeePayroll
+Select MIN(Salary) from EmployeePayroll
+Select MAX(Salary) from EmployeePayroll
+Select Count(EmployeeID) from EmployeePayroll
+Select SUM(Salary) from EmployeePayroll where Gender = 'Female' GROUP BY Gender;
+
+
+
