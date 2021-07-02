@@ -46,3 +46,11 @@ PhoneNumber varchar(10),
 Department varchar(30),
 address varchar(30),
 CONSTRAINT DF_Address DEFAULT 'Indian' FOR Address
+
+--UC9-Extending table with basicpay,Deduction,TaxablePay,NetPay,IncomeTax
+Alter table EmployeePayRoll Add
+BasicPay float,
+Deduction float,
+taxablePay float,
+IncomeTax float,
+NetPay float;
