@@ -40,5 +40,9 @@ Select MAX(Salary) from EmployeePayroll
 Select Count(EmployeeID) from EmployeePayroll
 Select SUM(Salary) from EmployeePayroll where Gender = 'Female' GROUP BY Gender;
 
-
-
+--UC8-Extending the table with adding phonenumber,address and department
+Alter Table EmployeePayroll Add
+PhoneNumber varchar(10),
+Department varchar(30),
+address varchar(30),
+CONSTRAINT DF_Address DEFAULT 'Indian' FOR Address
