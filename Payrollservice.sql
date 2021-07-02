@@ -22,3 +22,6 @@ select * from EmployeePayRoll;
 --UC5-retriving Particular data
 Select Salary from EmployeePayRoll Where EmployeeName='Biju'
 Select Salary from EmployeePayRoll Where StartDate BETWEEN CAST('2018-01-01' as date) and GetDate();
+--UC6-Updating gender of the employee name
+Alter Table EmployeePayroll
+Add gender varchar(20);
