@@ -54,3 +54,5 @@ Deduction float,
 taxablePay float,
 IncomeTax float,
 NetPay float;
+
+--UC10-Ability to make terissa part of sales and markting department
