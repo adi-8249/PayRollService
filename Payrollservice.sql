@@ -56,3 +56,15 @@ IncomeTax float,
 NetPay float;
 
 --UC10-Ability to make terissa part of sales and markting department
+Insert into EmployeePayroll(EmployeeName,Salary,StartDate)
+VALUES ('Terissa', 50000.00 , '2021-03-10'),
+	   ('Terissa', 70000.00 , '2021-04-10')
+UPDATE EmployeePayroll set Gender ='Female' where EmployeeName='Terissa'
+UPDATE EmployeePayroll set PhoneNumber ='8949775971', Department='Sales & Marketing', Address='Mumbai',BasicPay=25000, Deduction=3000,TaxablePay=1000,IncomeTax=200,NetPay=17000 where EmployeeName='Anjaneya'
+UPDATE EmployeePayroll set PhoneNumber ='8949775972', Department='HR', Address='Bhubaneswar',BasicPay=15000, Deduction=4000,TaxablePay=1000,IncomeTax=400,NetPay=19000 where EmployeeName='gopal'
+UPDATE EmployeePayroll set PhoneNumber ='8949775973', Department='Support', Address='Gurgaon',BasicPay=18000, Deduction=5000,TaxablePay=1000,IncomeTax=400,NetPay=21000 where EmployeeName='Raja'
+UPDATE EmployeePayroll set PhoneNumber ='8949775974', Department='Manager', Address='Kolkata',BasicPay=32000, Deduction=7000,TaxablePay=2000,IncomeTax=200,NetPay=18000 where EmployeeName='Biju'
+UPDATE EmployeePayroll set PhoneNumber ='8949775975', Department='HR', Address='Amritsar',BasicPay=30000, Deduction=5000,TaxablePay=1000,IncomeTax=200,NetPay=19000 where EmployeeName='Sridhar'
+UPDATE EmployeePayroll set PhoneNumber ='8949775977', Department='Sales & Marketing', Address='Mumbai',BasicPay=35000, Deduction=2000,TaxablePay=1000,IncomeTax=200,NetPay=13000 where EmployeeName='Terissa'
+UPDATE EmployeePayroll set PhoneNumber ='8949775978', Department='Sales & Marketing', Address='Mumbai',BasicPay=35000, Deduction=2000,TaxablePay=1000,IncomeTax=200,NetPay=13000 where EmployeeName='Terissa'
+ 
